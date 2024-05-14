@@ -101,3 +101,6 @@ class AncientPoetryDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+
+    def test(self):
+        print('test')
