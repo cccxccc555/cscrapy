@@ -31,3 +31,6 @@ class AncientPoetryPipeline(object):
         self.exporter.finish_exporting()
         self.fp.close()
         print('爬虫结束！')
+
+    def test_v3(self):
+        print('test_v3')
