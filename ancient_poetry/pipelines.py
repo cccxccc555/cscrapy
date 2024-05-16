@@ -27,6 +27,9 @@ class AncientPoetryPipeline(object):
         self.exporter.export_item(item)
         return item
 
+    def test_5_16(self):
+        print('test_5_16')
+
     def close_spider(self, spider):
         self.exporter.finish_exporting()
         self.fp.close()
